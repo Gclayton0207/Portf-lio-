@@ -65,21 +65,21 @@ button {
 }
 [data-anime]{
   opacity: 0;
-  transition: .7s;
+  transition: .5s;
 }
 
 [data-anime="left"]{
-  transform: translate3d(-100px, 0, 0);
+  transform: translate3d(-50px, 0, 0);
 }
 
 [data-anime="right"]{
-  transform: translate3d(100px, 0, 0);
+  transform: translate3d(50, 0, 0);
 }
 [data-anime="top"]{
-  transform: translate3d(0, -100px, 0);
+  transform: translate3d(0, -50px, 0);
 }
 [data-anime="down"]{
-  transform: translate3d(0, 100px, 0);
+  transform: translate3d(0, 50px, 0);
 }
 [data-anime].animate{
   opacity: 1;
