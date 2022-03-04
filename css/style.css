@@ -63,29 +63,28 @@ button {
   color: #fbcd35;
   transition: all 0.5s ease;
 }
-[data-anime]{
+[data-anime] {
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-[data-anime="left"]{
+[data-anime="left"] {
   transform: translate3d(-50px, 0, 0);
 }
 
-[data-anime="right"]{
+[data-anime="right"] {
   transform: translate3d(50, 0, 0);
 }
-[data-anime="top"]{
+[data-anime="top"] {
   transform: translate3d(0, -50px, 0);
 }
-[data-anime="down"]{
+[data-anime="down"] {
   transform: translate3d(0, 50px, 0);
 }
-[data-anime].animate{
+[data-anime].animate {
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
-
 
 @media (max-width: 900px) {
   .header {
