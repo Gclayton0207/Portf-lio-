@@ -73,7 +73,7 @@ button {
 }
 
 [data-anime="right"] {
-  transform: translate3d(50, 0, 0);
+  transform: translate3d(50px, 0, 0);
 }
 [data-anime="top"] {
   transform: translate3d(0, -50px, 0);
